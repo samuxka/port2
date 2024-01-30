@@ -291,23 +291,6 @@ section {
     margin-bottom: 25px;
 }
 
-.read {
-    display: inline-block;
-    padding: 8px 18px;
-    background: #00ccff;
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 500;
-    border: 1px solid transparent;
-    transition: all .45s ease;
-}
-
-.read:hover {
-    background: none;
-    border: 1px solid #00ccff;
-    color: #00ccff;
-}
-
 
 .portfolio-content {
     display: grid;
