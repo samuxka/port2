@@ -250,11 +250,10 @@ section {
 }
 
 .services-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
+    display: flex;
+    overflow-x: auto;
     gap: 2.5rem;
-    margin-top: 5rem;
+    padding-bottom: 2.5rem; /* Adiciona espaço abaixo para a barra de rolagem */
 }
 
 .box {
@@ -262,6 +261,8 @@ section {
     padding: 35px 45px;
     border-radius: 8px;
     transition: all .50s ease;
+    flex: 0 0 auto; /* Impede que os boxes diminuam de tamanho */
+    width: 250px; /* Defina o tamanho fixo dos boxes */
 }
 
 .box:hover {
@@ -291,6 +292,7 @@ section {
     line-height: 1.8;
     margin-bottom: 25px;
 }
+
 
 
 .portfolio-content {
