@@ -260,6 +260,7 @@ section {
 .box {
     flex: 0 0 auto;
     width: 250px;
+    min-width: 250px; /* Adiciona esta linha para definir uma largura mínima */
     scroll-snap-align: start;
     background: var(--bg-color);
     padding: 35px 45px;
