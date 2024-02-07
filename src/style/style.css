@@ -638,7 +638,7 @@ form textarea {
 
 ::-webkit-scrollbar{
     width: 5px;
-    background: var(--bg-color);
+    background: #0b6e86;
 }
 
 ::-webkit-scrollbar-thumb{
