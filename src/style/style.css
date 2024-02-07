@@ -634,3 +634,16 @@ form textarea {
         background: var(--bg-color);
     }
 }
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    background: #0b6e86;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    height: 200px;
+    background-color: var(--main-color);
+    border-radius: 50px;
+}
