@@ -196,6 +196,7 @@ section {
     transform: scale(0.9);
     background: none;
     border: 1px solid #00ccff;
+    color: var(--main-color);
 }
 
 .about {
