@@ -275,6 +275,7 @@ section {
     box-shadow: -2px -2px 10px 1px #383838;
 }
 
+
 .s-icons i {
     font-size: 32px;
     margin-bottom: 20px;
@@ -293,6 +294,12 @@ section {
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 25px;
+}
+
+.box .cert{
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
 }
 
 
