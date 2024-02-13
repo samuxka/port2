@@ -296,7 +296,7 @@ section {
     margin-bottom: 25px;
 }
 
-.box .cert{
+.box .cert {
     color: #fff;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
@@ -646,12 +646,12 @@ form textarea {
 }
 
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
     background: #0b6e86;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     width: 5px;
     height: 200px;
     background-color: var(--main-color);
