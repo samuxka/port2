@@ -367,6 +367,10 @@ section {
     border-radius: 50%;
 }
 
+.later p i{
+    display: inline-block;
+}
+
 .row:hover img {
     transform: scale(1.1);
     filter: blur(5px);
